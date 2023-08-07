@@ -27,12 +27,13 @@
     },
     "devDependencies": {
         "@babel/core": "^7.10.4",
+        "@babel/plugin-proposal-class-properties": "^7.18.6",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/preset-react": "^7.10.4",
         "babel-loader": "8.1.0",
         "file-loader": "4.3.0",
         "url-loader": "2.3.0",
         "webpack": "4.42.0",
-        "@babel/preset-env": "^7.10.4",
-        "@babel/preset-react": "^7.10.4",
         "webpack-cli": "^3.3.12"
     },
     "babel": {
@@ -60,6 +61,5 @@
     "repository": {
         "type": "git",
         "url": "git@github.com:theanam/react-awesome-lightbox.git"
-    },
-    "dependencies": {}
+    }
 }
